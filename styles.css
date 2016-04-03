@@ -9,23 +9,23 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #E8BBBB;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #905454;
+  color: white;
 }
 a:hover {
-  color: #6633ff;
+  color: #A4B1B4;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: #DDA1A1;
+  background: #A45F5F;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -53,8 +53,13 @@ a:hover {
 .nav a {
   transition: all .5s;
 }
+
+.nav a.selected {
+  text-decoration: underline;
+}
+
 .nav a:hover, .nav a.selected {
-  color: white
+  color: #A4B1B4;
 }
 
 
@@ -65,8 +70,7 @@ header {
   background-size: contain;
   overflow: hidden;
   padding-top: 60px;
-  border-bottom: 5px solid #905454
-;
+  border-bottom: 5px solid #905454;
 }
 header {
   line-height: 1.5;
@@ -76,11 +80,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #905454;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.1) rotate(5deg);
+  border: 3px solid #905454; 
 }
 .tag {
   background-color: #efefef;
@@ -90,22 +95,26 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
+h1.name {
+  color: #905454;
+}
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #905454;
+  color: white;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
+  background: #FFE7E7;
+  border-bottom: 4px solid #708B8B;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #905454;
 }
 
 ul.skills {
