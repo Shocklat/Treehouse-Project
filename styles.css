@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #905454;
 }
 a:hover {
   color: #6633ff;
@@ -25,11 +25,12 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #DDA1A1;
   min-height: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
+  border-bottom: 4px solid #905454;
 }
 .nav {
   display: flex;
@@ -44,6 +45,7 @@ a:hover {
     display: block;
     margin-right: auto;
     color: white;
+    font-size: 1.75em;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -51,16 +53,20 @@ a:hover {
 .nav a {
   transition: all .5s;
 }
-.nav a:hover {
+.nav a:hover, .nav a.selected {
   color: white
 }
 
+
+
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
-  background-size: cover;
+  background: url('images/header-bg.jpg') repeat top center ;
+  background-size: contain;
   overflow: hidden;
   padding-top: 60px;
+  border-bottom: 5px solid #905454
+;
 }
 header {
   line-height: 1.5;
@@ -74,7 +80,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(5deg);
 }
 .tag {
   background-color: #efefef;
