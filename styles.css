@@ -98,6 +98,8 @@ header .profile-image:hover {
 
 h1.name {
   color: #905454;
+  display: inline block;
+  border-radius: 6px;
 }
 .location {
   background-color: #905454;
@@ -115,6 +117,11 @@ h1.name {
 }
 .card:hover {
   border-color: #905454;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 6px;
 }
 
 ul.skills {
