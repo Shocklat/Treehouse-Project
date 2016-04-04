@@ -122,6 +122,7 @@ h1.name {
 .card img {
   max-width: 100%;
   border-radius: 6px;
+  
 }
 
 ul.skills {
@@ -187,6 +188,37 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+/* Experience Page Styles */
+
+ul.experience li {
+  margin-bottom: 10%;
+}
+
+
+
+/* Contact Page Styles */
+
+ul.contact-info {
+  list-style: none;
+  margin-top: 20%;
+}
+
+ul.contact-info li {
+  margin-bottom: 20%;
+}
+
+ul.contact-info li img {
+  vertical-align: middle;
+}
+
+ul.contact-info li a {
+  color: black;
+}
+
+ul.contact-info li a:hover {
+  color: #A4B1B4;
 }
 
 /* Styles for larger screens */
