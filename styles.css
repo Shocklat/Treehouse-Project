@@ -193,9 +193,25 @@ a.social:hover {
 
 /* Experience Page Styles */
 
-ul.experience li {
+.experience {
+  text-align: center;
+}
+
+.experience ul {
+  
+  padding-left: 0;
+}
+
+.experience ul li {
   margin-bottom: 10%;
 }
+
+.experience img {
+  display: inline-block;
+  height: 150px;
+  width: 100%;
+}
+
 
 
 
