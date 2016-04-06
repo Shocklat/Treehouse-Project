@@ -98,7 +98,7 @@ header .profile-image:hover {
 
 h1.name {
   color: #905454;
-  display: inline block;
+  display: inline-block;
   border-radius: 6px;
 }
 .location {
